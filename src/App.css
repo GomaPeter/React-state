@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: large;
+    font-weight: 600;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: inherit;
+    border-radius: 8px;
+    background: #dfdfda;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    border: 1px solid;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1cm;
+    border-radius: 10px;
+    background: #cbc9c7;
+}
